@@ -3,8 +3,28 @@ import {Component} from "@angular/core";
 
 @Component({
   selector: "neo",
-  template: "<h1>First Angular 2</h1>"
-})
-class AppComponent { }
+  templateUrl: "/src/neo.html",
+  styles: [
+    `
+      .editor {
+        width: 100%;
+        height: 800px;
+      }
+    `,
+    `
+      .command {
+        width: 100%;
+      }
 
-bootstrap(AppComponent);
+      .command > input[name=command] {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        width: 100%;
+      }
+    `
+  ],
+})
+class NeoComponent { }
+
+bootstrap(NeoComponent);
