@@ -1,0 +1,10 @@
+.command {
+  width: 100%;
+}
+
+.command > input[name=command] {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: 100%;
+}
