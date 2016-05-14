@@ -3,10 +3,10 @@ import {Component} from "@angular/core";
 
 @Component({
   selector: "neo",
-  templateUrl: "/src/neo.html",
+  templateUrl: "app/neo.html",
   styleUrls: [
-    "./src/editor.neo.css",
-    "./src/command.neo.css"
+    "app/editor.neo.css",
+    "app/command.neo.css"
   ]
 })
 class NeoComponent { }
