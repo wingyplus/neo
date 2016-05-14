@@ -1,3 +1,10 @@
+# Javascript that compiled with Typescript
+src/*.js
+
+# Emacs
+*~
+#*#
+
 # Logs
 logs
 *.log
